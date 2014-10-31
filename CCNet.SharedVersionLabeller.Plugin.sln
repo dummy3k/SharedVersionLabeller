@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CCNet.SharedVersionLabeller.Plugin", "CCNet.SharedVersionLabeller.Plugin\CCNet.SharedVersionLabeller.Plugin.csproj", "{5525EEFE-032B-4256-BDB7-C5B422490F7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CCNet.SharedVersionLabeller.Tests", "CCNet.SharedVersionLabeller.Tests\CCNet.SharedVersionLabeller.Tests.csproj", "{A3FFF698-3272-4F20-8F2A-D0561151FB2C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BB87B132-BA05-4342-AA5A-E19AE6437158}"
+	ProjectSection(SolutionItems) = preProject
+		CCNet.SharedVersionLabeller.Plugin\CCNet.SharedVersionLabeller.Plugin.vsmdi = CCNet.SharedVersionLabeller.Plugin\CCNet.SharedVersionLabeller.Plugin.vsmdi
+		CCNet.SharedVersionLabeller.Plugin\Local.testsettings = CCNet.SharedVersionLabeller.Plugin\Local.testsettings
+		CCNet.SharedVersionLabeller.Plugin\TraceAndTestImpact.testsettings = CCNet.SharedVersionLabeller.Plugin\TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = CCNet.SharedVersionLabeller.Plugin\CCNet.SharedVersionLabeller.Plugin.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5525EEFE-032B-4256-BDB7-C5B422490F7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5525EEFE-032B-4256-BDB7-C5B422490F7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5525EEFE-032B-4256-BDB7-C5B422490F7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5525EEFE-032B-4256-BDB7-C5B422490F7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3FFF698-3272-4F20-8F2A-D0561151FB2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3FFF698-3272-4F20-8F2A-D0561151FB2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3FFF698-3272-4F20-8F2A-D0561151FB2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3FFF698-3272-4F20-8F2A-D0561151FB2C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
